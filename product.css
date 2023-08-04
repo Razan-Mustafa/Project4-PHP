@@ -1,0 +1,28 @@
+#bigdiv{
+    width: 80%;
+    margin: auto;
+    
+}
+#im {
+    width: 200px;
+}
+.col{
+    color: #464e47 !important;
+}
+#head{
+    text-align:center !important; 
+    color: rgb(200, 166, 122) !important;
+}
+
+/* botton */
+.btn{
+    background-color:#464e47 !important;
+    color: white !important;
+    font-size: 20px !important;
+    width: 200px;
+    margin:50px 12% !important;
+}
+.btn:hover{
+    background-color:sienna !important;
+    font-size: 20px !important;
+}
