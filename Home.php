@@ -19,10 +19,6 @@ session_start();?>
     ?>
  
 
- 
- 
-
-
 <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -33,22 +29,26 @@ session_start();?>
     <div class="carousel-item active">
       <img src="photos/s11.PNG" class="d-block w-100" alt="photos/sdasdas.PNG">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>With ModaRoza...</h5>
+        <p>
+          "Discover the latest trends and elevate your style with Modaroze Fashion."
+        </p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="photos/s2.PNG" class="d-block w-100" alt="photos/sdasdas.PNG">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>With ModaRoza...</h5>
+        <p>"Revamp your closet with our premium quality and chic styles."       
+      </p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="photos/s3.PNG" class="d-block w-100" alt="photos/sdasdas.PNG">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>With ModaRoza...</h5>
+        <p>"Unleash your inner fashionista with our exclusive collections."
+        </p>
       </div>
     </div>
   </div>
@@ -65,19 +65,22 @@ session_start();?>
 
 
 
-
+<!-- about -->
 <div id="wel"></div><br><br>
-<img id="wel" src="photos/s13.png" class="img-fluid rounded float-start" alt="..." >
 <div class="flo">
-<b  class="wel" style="font-size:40px">Welcome to ModaRoza</b><br> your ultimate destination for fashion-forward individuals seeking the latest trends and styles. Our website is a curated haven for those who dare to be bold, expressive, and unapologetically themselves. At ModaRoza, we believe that fashion is not just about clothing; it's an art form that empowers and uplifts.
+<img id="wel1" src="photos/s17.png" class="img-fluid rounded float-start" alt="... ">
+<div class= "text"><b class="wel" style="font-size:40px">Welcome to ModaRoza</b><br> your ultimate destination for fashion-forward individuals seeking the latest trends and styles. Our website is a curated haven for those who dare to be bold, expressive, and unapologetically themselves. At ModaRoza, we believe that fashion is not just about clothing; it's an art form that empowers and uplifts.
+</div>
 </div>
 
-<div id="wel2"></div><br><br>
-<img src="photos/s12.png" class="img-fluid rounded float-end" alt="..." >
-<div class="flo">
-<b class="wel" style="font-size:40px">Our Aspirations</b><br> We aim to provide a seamless shopping experience, from browsing through our thoughtfully designed website to the moment your package arrives at your doorstep. Our dedicated support team is always ready to assist with any queries or concerns you may have, ensuring your satisfaction is our top priority.
-</div>
 
+
+<br><br>
+<div id= "our" class="flo">
+  <img  id="wel2" src="photos/s18.png" class="img-fluid rounded float-end" alt="..." >
+  <div class= "text"><b class="wel" style="font-size:40px">Our Aspirations</b><br> We aim to provide a seamless shopping experience, from browsing through our thoughtfully designed website to the moment your package arrives at your doorstep. Our dedicated support team is always ready to assist with any queries or concerns you may have, ensuring your satisfaction is our top priority.
+</div>
+</div>
 <div class="content" id="content">
     <h1>You can add your product</h1>
     <p>Your ultimate destination for fashion-forward individuals seeking the latest trends and styles.</p>  
@@ -90,7 +93,7 @@ session_start();?>
 
 
 
-
+<!-- form -->
 <div id="form">
 <form action="table.php" method="get" enctype="multipart/form-data">
    <div class="mb-3">
@@ -204,8 +207,13 @@ if (isset($_GET['del'])) {
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> <!--bootstrap-->
+  <script src="https://kit.fontawesome.com/65d53f33a7.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> <!--bootstrap-->
 </body>
+<footer>
+  <?php
+    include_once "footer.php"
+  ?>
+</footer>
 </html>
 

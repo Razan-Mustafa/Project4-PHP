@@ -27,7 +27,7 @@ foreach ($_SESSION['products'] as $product) {
               <div class="card-body">
                   <h4 id="head"  class="card-title"> '. $product['name'] .'</h4>
                   <h6 class="card-title">Price: '. $product['price'] .'</h6>
-                  <p class="card-text">Details: '. $product['details'] .'<br><br>Product availability: <b>'. $product['ava'] .'</b></p>
+                  <p class="card-text">Details: '. $product['details'] .'<br><br>Product availability: <em>'. $product['ava'] .'</em></p>
               </div>
               <div class="card-footer">
                   <small class="text-body-secondary">Last updated '. $product['dateInput'] .'</small>
@@ -42,11 +42,16 @@ foreach ($_SESSION['products'] as $product) {
     <button class="btn" name="home" > back to home </button>
   </form>
 
-
+  
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> <!--bootstrap-->
 
 
 
 </body>
+<footer>
+  <?php
+    include_once "footer.php"
+  ?>
+</footer>
 </html>
