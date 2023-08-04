@@ -56,7 +56,7 @@
 }
 
 .content:hover h1 {
-  color: green;
+  color: #464e47;
 }
 
 .content:hover p {
@@ -66,10 +66,10 @@
 /* content */
 .content {
     margin: 100px 0 20px 0;
-    font-family: 'Pacifico', cursive;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 20px;
-    background-color: burlywood;
-    color: #464e47 ;
+    background-color: #C39F82;
+    color: #fffdf6 ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 
